@@ -1,4 +1,5 @@
--- QUESTION: The meteorologists who you’re working with have asked you to get the temperature, wind speed, and precipitation for stations La Guardia and JFK, for every day in 2020, in descending order by date, and ascending order by Station ID.
+-- QUESTION: The meteorologists who you’re working with have asked you to get the temperature, wind speed, and precipitation for stations La Guardia and JFK,
+-- for every day in 2020, in descending order by date, and ascending order by Station ID.
 
 SELECT
   stn, date,
@@ -30,9 +31,11 @@ ORDER BY
   stn ASC
 	
 	
--- The meteorologists also asked a couple questions while they were preparing for the nightly news: They want the average temperature in June 2020 and the average wind_speed in December 2020. 
+-- The meteorologists also asked a couple questions while they were preparing for the nightly news: They want the average temperature in June 2020 
+-- and the average wind_speed in December 2020. 
 
--- Instead of rewriting similar, but slightly different, queries over and over again, there is an easier approach: Save the results from the original query as a table for future queries. 
+-- Instead of rewriting similar, but slightly different, queries over and over again, there is an easier approach: Save the results from the original 
+-- query as a table for future queries. 
 
 SELECT
 
